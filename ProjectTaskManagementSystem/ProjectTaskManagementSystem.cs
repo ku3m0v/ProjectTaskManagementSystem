@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace ProjectTaskManagementSystem
 {
-    public partial class Form1 : Form
+    public partial class ProjectTaskManagementSystem : Form
     {
-        public Form1()
+        public ProjectTaskManagementSystem()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
